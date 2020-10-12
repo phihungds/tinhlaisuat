@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Tính lãi suất</title>
+        <script src="laisuat.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Số tiền vay:</td>
+                <td><input type="number" id="money"> đ</td>
+            </tr>
+            <tr>
+                <td>Lãi suất</td>
+                <td colspan="3"><input type="number" id="lai" size="1"> % /năm</td>
+            </tr>
+            <tr>
+                <td>Số năm vay</td>
+                <td><input type="number" id="year"> năm</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input onclick="cal()" type="button" value="Tính"></td>
+            </tr>
+            <tr id="ketqua"></tr>
+        </table>
+
+    </body>
+</html>
